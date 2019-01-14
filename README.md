@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Welcome to the Weekly Meal Planner!</h1>
+# Welcome to Project Recipe
   Please choose a recipe by going to the menu item Recipes
   ### Roadmap:
   - Weekly meal planner built from selected recipes
