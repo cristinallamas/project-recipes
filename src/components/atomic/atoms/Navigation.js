@@ -10,6 +10,9 @@ const Navigation = () => (
       <li>
         <NavLink to={'/recipes'}>Recipes</NavLink>
       </li>
+      <li>
+        <NavLink to={'/shopping-list'}>Shopping List</NavLink>
+      </li>
     </ul>
   </React.Fragment>
 )

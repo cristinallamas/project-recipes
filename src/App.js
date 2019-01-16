@@ -8,8 +8,7 @@ class App extends Component {
     super(props)
     this.state = {
       recipes: [],
-      selectedRecipe: null,
-      shoppingList: [],
+      shoppingList: ['1'],
       thisWeekPlan: []
     }
   }
@@ -44,7 +43,8 @@ class App extends Component {
             'Fix salt to taste',
             'Enjoy!'
           ],
-          id: '1'
+          id: '1',
+          selected: false
         },
         {
           title: 'Pizza',
@@ -60,7 +60,8 @@ class App extends Component {
             'Sprinkle vegan cheese over sauce',
             'Bake at 350 degrees for 20 minutes'
           ],
-          id: '2'
+          id: '2',
+          selected: false
         }
       ]
     })
